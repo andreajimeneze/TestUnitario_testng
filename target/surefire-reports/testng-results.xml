@@ -2,83 +2,20 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-15T12:25:19 CLT" name="TaskManagerSuite" finished-at="2025-07-15T12:25:19 CLT" duration-ms="162">
+  <suite started-at="2025-07-15T15:03:28 CLT" name="TaskManagerSuite" finished-at="2025-07-15T15:03:28 CLT" duration-ms="99">
     <groups>
     </groups>
-    <test started-at="2025-07-15T12:25:19 CLT" name="TaskManagerTest1" finished-at="2025-07-15T12:25:19 CLT" duration-ms="153">
+    <test started-at="2025-07-15T15:03:28 CLT" name="TaskManagerTest2" finished-at="2025-07-15T15:03:28 CLT" duration-ms="99">
       <class name="cl.kibernumacademy.taskmanager.services.TaskManagerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@5dd6264]" started-at="2025-07-15T12:25:19 CLT" name="setUp" finished-at="2025-07-15T12:25:19 CLT" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@36c88a32]" started-at="2025-07-15T15:03:28 CLT" name="setUp" finished-at="2025-07-15T15:03:28 CLT" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="cleanTasks()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@5dd6264]" started-at="2025-07-15T12:25:19 CLT" name="cleanTasks" finished-at="2025-07-15T12:25:19 CLT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanTasks()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@36c88a32]" started-at="2025-07-15T15:03:28 CLT" name="cleanTasks" finished-at="2025-07-15T15:03:28 CLT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanTasks -->
-        <test-method signature="testAddTask(java.lang.String,java.lang.String)[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@5dd6264]" started-at="2025-07-15T12:25:19 CLT" name="testAddTask" finished-at="2025-07-15T12:25:19 CLT" duration-ms="10" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Tarea 1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Ejercicio con hamcrest]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddTask -->
-        <test-method is-config="true" signature="cleanTasks()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@5dd6264]" started-at="2025-07-15T12:25:19 CLT" name="cleanTasks" finished-at="2025-07-15T12:25:19 CLT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanTasks -->
-        <test-method signature="testChangeStatus_Failed()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@5dd6264]" started-at="2025-07-15T12:25:19 CLT" name="testChangeStatus_Failed" finished-at="2025-07-15T12:25:19 CLT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testChangeStatus_Failed -->
-        <test-method is-config="true" signature="cleanTasks()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@5dd6264]" started-at="2025-07-15T12:25:19 CLT" name="cleanTasks" finished-at="2025-07-15T12:25:19 CLT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanTasks -->
-        <test-method signature="testChangeStatus_Successful(java.lang.String)[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@5dd6264]" started-at="2025-07-15T12:25:19 CLT" name="testChangeStatus_Successful" finished-at="2025-07-15T12:25:19 CLT" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Tarea 1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testChangeStatus_Successful -->
-        <test-method signature="testFilterByStatus()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@5dd6264]" started-at="2025-07-15T12:25:19 CLT" name="testFilterByStatus" finished-at="2025-07-15T12:25:19 CLT" duration-ms="26" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFilterByStatus -->
-        <test-method is-config="true" signature="cleanTasks()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@5dd6264]" started-at="2025-07-15T12:25:19 CLT" name="cleanTasks" finished-at="2025-07-15T12:25:19 CLT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanTasks -->
-        <test-method is-config="true" signature="shutDown()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@5dd6264]" started-at="2025-07-15T12:25:19 CLT" name="shutDown" finished-at="2025-07-15T12:25:19 CLT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shutDown -->
-      </class> <!-- cl.kibernumacademy.taskmanager.services.TaskManagerTest -->
-    </test> <!-- TaskManagerTest1 -->
-    <test started-at="2025-07-15T12:25:19 CLT" name="TaskManagerTest2" finished-at="2025-07-15T12:25:19 CLT" duration-ms="162">
-      <class name="cl.kibernumacademy.taskmanager.services.TaskManagerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@ef9296d]" started-at="2025-07-15T12:25:19 CLT" name="setUp" finished-at="2025-07-15T12:25:19 CLT" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="cleanTasks()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@ef9296d]" started-at="2025-07-15T12:25:19 CLT" name="cleanTasks" finished-at="2025-07-15T12:25:19 CLT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanTasks -->
-        <test-method signature="testAddTask(java.lang.String,java.lang.String)[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@ef9296d]" started-at="2025-07-15T12:25:19 CLT" name="testAddTask" finished-at="2025-07-15T12:25:19 CLT" duration-ms="10" status="PASS">
+        <test-method signature="testAddTask(java.lang.String,java.lang.String)[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@36c88a32]" started-at="2025-07-15T15:03:28 CLT" name="testAddTask" finished-at="2025-07-15T15:03:28 CLT" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,19 +31,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddTask -->
-        <test-method is-config="true" signature="cleanTasks()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@ef9296d]" started-at="2025-07-15T12:25:19 CLT" name="cleanTasks" finished-at="2025-07-15T12:25:19 CLT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanTasks()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@36c88a32]" started-at="2025-07-15T15:03:28 CLT" name="cleanTasks" finished-at="2025-07-15T15:03:28 CLT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanTasks -->
-        <test-method signature="testChangeStatus_Failed()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@ef9296d]" started-at="2025-07-15T12:25:19 CLT" name="testChangeStatus_Failed" finished-at="2025-07-15T12:25:19 CLT" duration-ms="2" status="PASS">
+        <test-method signature="testChangeStatus_Failed()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@36c88a32]" started-at="2025-07-15T15:03:28 CLT" name="testChangeStatus_Failed" finished-at="2025-07-15T15:03:28 CLT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testChangeStatus_Failed -->
-        <test-method is-config="true" signature="cleanTasks()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@ef9296d]" started-at="2025-07-15T12:25:19 CLT" name="cleanTasks" finished-at="2025-07-15T12:25:19 CLT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="cleanTasks()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@36c88a32]" started-at="2025-07-15T15:03:28 CLT" name="cleanTasks" finished-at="2025-07-15T15:03:28 CLT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanTasks -->
-        <test-method signature="testChangeStatus_Successful(java.lang.String)[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@ef9296d]" started-at="2025-07-15T12:25:19 CLT" name="testChangeStatus_Successful" finished-at="2025-07-15T12:25:19 CLT" duration-ms="2" status="PASS">
+        <test-method signature="testChangeStatus_Successful(java.lang.String)[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@36c88a32]" started-at="2025-07-15T15:03:28 CLT" name="testChangeStatus_Successful" finished-at="2025-07-15T15:03:28 CLT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,19 +54,82 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testChangeStatus_Successful -->
-        <test-method signature="testFilterByStatus()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@ef9296d]" started-at="2025-07-15T12:25:19 CLT" name="testFilterByStatus" finished-at="2025-07-15T12:25:19 CLT" duration-ms="27" status="PASS">
+        <test-method signature="testFilterByStatus()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@36c88a32]" started-at="2025-07-15T15:03:28 CLT" name="testFilterByStatus" finished-at="2025-07-15T15:03:28 CLT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFilterByStatus -->
-        <test-method is-config="true" signature="cleanTasks()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@ef9296d]" started-at="2025-07-15T12:25:19 CLT" name="cleanTasks" finished-at="2025-07-15T12:25:19 CLT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleanTasks()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@36c88a32]" started-at="2025-07-15T15:03:28 CLT" name="cleanTasks" finished-at="2025-07-15T15:03:28 CLT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanTasks -->
-        <test-method is-config="true" signature="shutDown()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@ef9296d]" started-at="2025-07-15T12:25:19 CLT" name="shutDown" finished-at="2025-07-15T12:25:19 CLT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@36c88a32]" started-at="2025-07-15T15:03:28 CLT" name="shutDown" finished-at="2025-07-15T15:03:28 CLT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shutDown -->
       </class> <!-- cl.kibernumacademy.taskmanager.services.TaskManagerTest -->
     </test> <!-- TaskManagerTest2 -->
+    <test started-at="2025-07-15T15:03:28 CLT" name="TaskManagerTest1" finished-at="2025-07-15T15:03:28 CLT" duration-ms="99">
+      <class name="cl.kibernumacademy.taskmanager.services.TaskManagerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@1ffe63b9]" started-at="2025-07-15T15:03:28 CLT" name="setUp" finished-at="2025-07-15T15:03:28 CLT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="cleanTasks()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@1ffe63b9]" started-at="2025-07-15T15:03:28 CLT" name="cleanTasks" finished-at="2025-07-15T15:03:28 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTasks -->
+        <test-method signature="testAddTask(java.lang.String,java.lang.String)[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@1ffe63b9]" started-at="2025-07-15T15:03:28 CLT" name="testAddTask" finished-at="2025-07-15T15:03:28 CLT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tarea 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ejercicio con hamcrest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTask -->
+        <test-method is-config="true" signature="cleanTasks()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@1ffe63b9]" started-at="2025-07-15T15:03:28 CLT" name="cleanTasks" finished-at="2025-07-15T15:03:28 CLT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTasks -->
+        <test-method signature="testChangeStatus_Failed()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@1ffe63b9]" started-at="2025-07-15T15:03:28 CLT" name="testChangeStatus_Failed" finished-at="2025-07-15T15:03:28 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeStatus_Failed -->
+        <test-method is-config="true" signature="cleanTasks()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@1ffe63b9]" started-at="2025-07-15T15:03:28 CLT" name="cleanTasks" finished-at="2025-07-15T15:03:28 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTasks -->
+        <test-method signature="testChangeStatus_Successful(java.lang.String)[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@1ffe63b9]" started-at="2025-07-15T15:03:28 CLT" name="testChangeStatus_Successful" finished-at="2025-07-15T15:03:28 CLT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tarea 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangeStatus_Successful -->
+        <test-method signature="testFilterByStatus()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@1ffe63b9]" started-at="2025-07-15T15:03:28 CLT" name="testFilterByStatus" finished-at="2025-07-15T15:03:28 CLT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilterByStatus -->
+        <test-method is-config="true" signature="cleanTasks()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@1ffe63b9]" started-at="2025-07-15T15:03:28 CLT" name="cleanTasks" finished-at="2025-07-15T15:03:28 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanTasks -->
+        <test-method is-config="true" signature="shutDown()[pri:0, instance:cl.kibernumacademy.taskmanager.services.TaskManagerTest@1ffe63b9]" started-at="2025-07-15T15:03:28 CLT" name="shutDown" finished-at="2025-07-15T15:03:28 CLT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- cl.kibernumacademy.taskmanager.services.TaskManagerTest -->
+    </test> <!-- TaskManagerTest1 -->
   </suite> <!-- TaskManagerSuite -->
 </testng-results>

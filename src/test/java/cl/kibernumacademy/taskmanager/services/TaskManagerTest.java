@@ -6,7 +6,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -32,8 +31,8 @@ public class TaskManagerTest {
     }
 
     @Test
-   @Parameters({ "title", "description" })
-    public void testAddTask(@Optional String title, @Optional String description) {
+    @Parameters({ "title", "description" })
+    public void testAddTask(String title, String description) {  
         Task task = new Task(title, description);
        
         taskManager.addTask(task);
@@ -44,7 +43,7 @@ public class TaskManagerTest {
 
     @Test
     @Parameters({ "title" })
-    public void testChangeStatus_Successful(@Optional String title) {
+    public void testChangeStatus_Successful(String title) { 
         Task task = new Task(title, "Descripción de la tarea");
         taskManager.addTask(task);
         boolean changeSuccessful = taskManager.markAsCompleted(title);

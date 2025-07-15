@@ -6,7 +6,8 @@
         <parameter name="title" value="Tarea 1"/>
         <parameter name="description" value="Ejercicio con hamcrest"/>
         <classes>
-            <class name="cl.kibernumacademy.taskmanager.services.TaskManagerTest"/>
+            <class name="cl.kibernumacademy.taskmanager.services.TaskManagerTest">
+              </class>
         </classes>
     </test>
 
@@ -14,7 +15,9 @@
         <parameter name="title" value="Tarea 2"/>
         <parameter name="description" value="Ejercicio con testng"/>
         <classes>
-            <class name="cl.kibernumacademy.taskmanager.services.TaskManagerTest"/>
+            <class name="cl.kibernumacademy.taskmanager.services.TaskManagerTest">
+            </class>
         </classes>
     </test>
+
 </suite>

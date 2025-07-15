@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.374" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.927" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\andre\AppData\Local\Temp\surefire18038361870287887819\surefirebooter13194763971634150691.jar C:\Users\andre\AppData\Local\Temp\surefire18038361870287887819 2025-07-15T12-25-17_364-jvmRun1 surefire12843064985166992631tmp surefire_016689336594170714392tmp"/>
+    <property name="sun.java.command" value="C:\Users\andre\AppData\Local\Temp\surefire12450754528254862247\surefirebooter10707202708544589216.jar C:\Users\andre\AppData\Local\Temp\surefire12450754528254862247 2025-07-15T15-03-27_218-jvmRun1 surefire11594015384858637709tmp surefire_018399133295510649722tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\andre\Desktop\AUTOMATIZACIÓN DE PRUEBAS\Módulo 3\taskmanager\target\test-classes;C:\Users\andre\Desktop\AUTOMATIZACIÓN DE PRUEBAS\Módulo 3\taskmanager\target\classes;C:\Users\andre\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\andre\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\andre\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\andre\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\andre\AppData\Local\Temp\surefire18038361870287887819\surefirebooter13194763971634150691.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\andre\AppData\Local\Temp\surefire12450754528254862247\surefirebooter10707202708544589216.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
@@ -58,12 +58,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testAddTask" classname="cl.kibernumacademy.taskmanager.services.TaskManagerTest" time="0.018"/>
-  <testcase name="testAddTask" classname="cl.kibernumacademy.taskmanager.services.TaskManagerTest" time="0.02"/>
-  <testcase name="testChangeStatus_Failed" classname="cl.kibernumacademy.taskmanager.services.TaskManagerTest" time="0"/>
-  <testcase name="testChangeStatus_Failed" classname="cl.kibernumacademy.taskmanager.services.TaskManagerTest" time="0"/>
+  <testcase name="testAddTask" classname="cl.kibernumacademy.taskmanager.services.TaskManagerTest" time="0.008"/>
+  <testcase name="testAddTask" classname="cl.kibernumacademy.taskmanager.services.TaskManagerTest" time="0.009"/>
+  <testcase name="testChangeStatus_Failed" classname="cl.kibernumacademy.taskmanager.services.TaskManagerTest" time="0.001"/>
+  <testcase name="testChangeStatus_Failed" classname="cl.kibernumacademy.taskmanager.services.TaskManagerTest" time="0.001"/>
   <testcase name="testChangeStatus_Successful" classname="cl.kibernumacademy.taskmanager.services.TaskManagerTest" time="0.002"/>
   <testcase name="testChangeStatus_Successful" classname="cl.kibernumacademy.taskmanager.services.TaskManagerTest" time="0.002"/>
-  <testcase name="testFilterByStatus" classname="cl.kibernumacademy.taskmanager.services.TaskManagerTest" time="0.026"/>
-  <testcase name="testFilterByStatus" classname="cl.kibernumacademy.taskmanager.services.TaskManagerTest" time="0.028"/>
+  <testcase name="testFilterByStatus" classname="cl.kibernumacademy.taskmanager.services.TaskManagerTest" time="0.005"/>
+  <testcase name="testFilterByStatus" classname="cl.kibernumacademy.taskmanager.services.TaskManagerTest" time="0.005"/>
 </testsuite>

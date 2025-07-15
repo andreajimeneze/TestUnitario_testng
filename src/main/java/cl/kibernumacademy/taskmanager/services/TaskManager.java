@@ -2,7 +2,6 @@ package cl.kibernumacademy.taskmanager.services;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.stream.Collectors;
 
 import cl.kibernumacademy.taskmanager.models.Task;
@@ -15,8 +14,12 @@ public class TaskManager {
     }
 
     public boolean markAsCompleted(String title) {
+        if(title == null) {
+            return false;
+        }
+
         for(Task task : tasksList) {
-            if(Objects.equals(task.getTitle(), title)) {
+            if(task != null && task.getTitle().equals(title)) { 
                 task.changeStatus();
                 return true;
             }
