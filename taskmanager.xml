@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TaskManagerSuite" parallel="tests" thread-count="2">
+
+    <test name="TaskManagerTest1">
+        <parameter name="title" value="Tarea 1"/>
+        <parameter name="description" value="Ejercicio con hamcrest"/>
+        <classes>
+            <class name="cl.kibernumacademy.taskmanager.services.TaskManagerTest"/>
+        </classes>
+    </test>
+
+    <test name="TaskManagerTest2">
+        <parameter name="title" value="Tarea 2"/>
+        <parameter name="description" value="Ejercicio con testng"/>
+        <classes>
+            <class name="cl.kibernumacademy.taskmanager.services.TaskManagerTest"/>
+        </classes>
+    </test>
+</suite>
